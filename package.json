@@ -1,13 +1,13 @@
 {
-  "name": "volume-leaflet",
+  "name": "zeppelin-leaflet",
   "description": "Geospatial visualization using the Leaflet map library.",
-  "author": "Tom Grant <tgrant@volumeintegration.com> (http://volumeintegration.com)",
-  "version": "1.0.1",
+  "author": "Mitchell Yuwono",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "jq '{ type: .helium.type, name: .name, description: .description, artifact: (.name + \"@\"+ .version), license: .license, icon: .helium.icon}' package.json > volume-leaflet.json",
-    "helium.dev": "jq --arg pwd `pwd` '{ type: .helium.type, name: .name, description: .description, artifact: $pwd, license: .license, icon: .helium.icon}' package.json > volume-leaflet.json"
+    "prepare": "jq '{ type: .helium.type, name: .name, description: .description, artifact: (.name + \"@\"+ .version), license: .license, icon: .helium.icon}' package.json > zeppelin-leaflet.json",
+    "helium.dev": "jq --arg pwd `pwd` '{ type: .helium.type, name: .name, description: .description, artifact: $pwd, license: .license, icon: .helium.icon}' package.json > zeppelin-leaflet.json"
   },
   "keywords": [
     "zeppelin",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/volumeint/helium-volume-leaflet.git"
+    "url": "https://github.com/myuwono/zeppelin-leaflet.git"
   },
-  "homepage": "https://github.com/volumeint/helium-volume-leaflet"
+  "homepage": "https://github.com/myuwono/zeppelin-leaflet"
 }
