@@ -2,7 +2,7 @@
   "name": "zeppelin-leaflet",
   "description": "Geospatial visualization using the Leaflet map library.",
   "author": "Mitchell Yuwono",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
   "dependencies": {
     "zeppelin-tabledata": "*",
     "zeppelin-vis": "*",
-    "leaflet": "~1.0.3"
+    "leaflet": "~1.2.0"
   },
   "helium": {
     "type": "VISUALIZATION",

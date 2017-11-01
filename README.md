@@ -2,6 +2,8 @@
 
 A geospatial visualization for Apache Zeppelin using [Leaflet](http://leafletjs.com/)
 
+**Requires Zeppelin 0.8.0-SNAPSHOT+**
+
 # Screenshots #
 
 ![Enable Package](https://cloud.githubusercontent.com/assets/28304007/25633533/6c508d9e-2f45-11e7-99a7-505d94c382ba.gif)
