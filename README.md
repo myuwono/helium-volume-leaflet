@@ -1,6 +1,7 @@
-# volume-leaflet #
+# zeppelin-leaflet #
 
 A geospatial visualization for Apache Zeppelin using [Leaflet](http://leafletjs.com/)
+forked from [volume-leaflet](https://github.com/volumeint/helium-volume-leaflet)
 
 **Requires Zeppelin 0.8.0-SNAPSHOT+**
 
