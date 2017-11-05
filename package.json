@@ -2,7 +2,7 @@
   "name": "zeppelin-leaflet",
   "description": "Geospatial visualization using the Leaflet map library.",
   "author": "Mitchell Yuwono (Maintainer), Tom Grant <tgrant@volumeintegration.com> (http://volumeintegration.com)",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
