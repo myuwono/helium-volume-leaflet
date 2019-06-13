@@ -153,7 +153,9 @@ export default class LeafletMap extends Visualization {
     const tooltipIdx = getColumnIndex(config, 'tooltip');
     const popupIdx = getColumnIndex(config, 'popup', true);
 
-    const rows = data.rows.map(tableRow => {
+    const rows = data.rows.filter(tableRow => {
+        return !(isNaN(tableRow[latIdx]) || isNaN(tableRow[lngIdx]));
+      }).map(tableRow => {
       const tooltip = tableRow[tooltipIdx];
       const lat = Number(tableRow[latIdx]);
       const lng = Number(tableRow[lngIdx]);
